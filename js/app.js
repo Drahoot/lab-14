@@ -54,6 +54,8 @@ const Product = function(name, fileExtension = 'jpg') {
 };
 Product.allProducts = [];
 
+
+
 function generateCatalog() {
   new Product('Bag');
   new Product('Banana');
