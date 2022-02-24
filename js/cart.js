@@ -27,16 +27,16 @@ function showCart() {
   // TODO: Find the table body
   document.getElementById('tbody');
   // TODO: Iterate over the items in the cart
-  tbody.appendChild(cart);
+  items.appendChild(cart);
   // TODO: Create a TR
-  let row2 = document.createElement('tr');
-  let th3Elem = document.createElement('td');
-  row2.appendChild(th3Elem);
-  table.appendChild(row2);
+  let tr1 = document.createElement('tr');
   // TODO: Create a TD for the delete link, quantity,  and the item
-  
+  let linkQuantityItem = document.createElement('td');
+  linkQuantityItem.appendChild('th');
   // TODO: Add the TR to the TBODY and each of the TD's to the TR
-  
+  let tbody1 = document.getElementById('tbody');
+  tr1.appendChild(tbody1);
+  tr1.appendChild(linkQuantityItem);
 }
 
 function removeItemFromCart(event) {
